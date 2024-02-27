@@ -1,4 +1,4 @@
-function parametersGroups = parametersGroupsATWM1_MDD()
+function parametersGroups = parametersGroupsRENAISSANCE()
 
 parametersGroups.strGroup                           = 'Group';
 parametersGroups.strGroups                          = 'Groups';
@@ -41,9 +41,9 @@ parametersGroups.strColorRelativesSchizophrenia     = 'Black';
 
 parametersGroups.aStrShortGroups = {
     parametersGroups.strShortControls
-    %parametersGroups.strShortSchizophrenia             
+    parametersGroups.strShortSchizophrenia             
     %parametersGroups.strShortBipolar
-    parametersGroups.strShortMajorDepression
+    %parametersGroups.strShortMajorDepression
     %parametersGroups.strShortAdhd
     %parametersGroups.strShortRelativesSchizophrenia
     };
@@ -51,18 +51,18 @@ parametersGroups.aStrShortGroups = {
 
 parametersGroups.aStrLongGroups = {
     parametersGroups.strControls
-    %parametersGroups.strSchizophrenia             
+    parametersGroups.strSchizophrenia             
     %parametersGroups.strBipolar
-    parametersGroups.strMajorDepression
+    %parametersGroups.strMajorDepression
     %parametersGroups.strAdhd
     %parametersGroups.strRelativesSchizophrenia
     };
 
 parametersGroups.aStrColorGroups = {
     parametersGroups.strColorControls
-    %parametersGroups.strColorSchizophrenia
+    parametersGroups.strColorSchizophrenia
     %parametersGroups.strColorBipolar
-    parametersGroups.strColorMajorDepression
+    %parametersGroups.strColorMajorDepression
     %parametersGroups.strColorAdhd
     %parametersGroups.strColorRelativesSchizophrenia
     };

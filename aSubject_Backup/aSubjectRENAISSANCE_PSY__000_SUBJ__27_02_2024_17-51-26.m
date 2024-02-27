@@ -1,8 +1,6 @@
 function aSubject = aSubjectRENAISSANCE_PSY()
 
 aSubject.RENAISSANCE_PSY.Groups.CONT	= {
-	'RZG391QU'
-	'XHM715FA'
 	};
 aSubject.RENAISSANCE_PSY.Groups.CONT = sort(aSubject.RENAISSANCE_PSY.Groups.CONT);
 
